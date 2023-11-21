@@ -27,7 +27,7 @@ name = "list"
 harness = false
 
 [dependencies]
-serde = { version = "1.0.188", features = ["derive"] }
+serde = { version = "1.0.193", features = ["derive"] }
 serde_json = { version = "1.0.107" }
 serde_yaml = { version = "0.9.25" }
 url = { version = "2.4.1" }
