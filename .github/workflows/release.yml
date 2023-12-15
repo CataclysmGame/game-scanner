@@ -133,37 +133,37 @@ jobs:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
 
       - name: Download windows-x64 asset
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: windows-x64.node
           path: node/npm/native
 
       - name: Download macos-x64 asset
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: darwin-x64.node
           path: node/npm/native
 
       - name: Download linux-x64 asset
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: linux-x64.node
           path: node/npm/native
 
       - name: Download windows-arm64 asset
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: windows-arm64.node
           path: node/npm/native
 
       - name: Download macos-arm64 asset
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: darwin-arm64.node
           path: node/npm/native
 
       - name: Download linux-arm64 asset
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: linux-arm64.node
           path: node/npm/native
